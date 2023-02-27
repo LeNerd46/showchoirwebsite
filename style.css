@@ -1,0 +1,15 @@
+body {
+    background-color: #323a40;
+}
+
+.navbar .navbar-nav .nav-item a {
+    padding: 15px;
+}
+
+.dropdown-item:hover {
+    background-color: #485159;
+}
+
+.upcoming-events {
+    padding: 15%;
+}

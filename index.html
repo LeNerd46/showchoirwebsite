@@ -1,1 +1,89 @@
-Show Choir
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Show Choir - Home</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">Show Choir</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Choirs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Songs</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Events
+                </a>
+                <ul class="dropdown-menu" style="background-color: #343a40;">
+                  <li><a class="dropdown-item text-white" href="/competitions">Competitions</a></li>
+                  <li><a class="dropdown-item text-white" href="/events/calendar">Calendar</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-but p-2">
+                    <a class="btn btn-outline-light" href="/signup">Sign Up</a>
+                </li>
+
+                <li class="nav-but p-2">
+                    <a class="btn btn-outline-light" href="/login">Log In</a>
+                  </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Where the page content stats -->
+      
+      <div class="container-fluid">
+        <div class="d-flex justify-content-center py-5">
+            <h3 class="text-white">Carousel for recent things</h1>
+        </div>
+
+        <div class="d-flex justify-content-center upcoming-events" style="padding-top: 15%">
+            <table class="table table-dark table-striped">
+              <thead>
+                <tr>
+                  <th scope="col" class="text-center">State</th>
+                  <th scope="col" class="text-center">Competition</th>
+                </tr>
+              </thead>
+              <tbody class="table-group-divider">
+                <tr>
+                  <th colspan="2" class="text-center">Friday, March 3, 2023</th>
+                </tr>
+                <tr>
+                  <th class="text-center">Indiana</th>
+                  <th class="text-center">Avon Vocal Invitational</th>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+      </div>
+      
+      <!-- Where the footer starts -->
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
